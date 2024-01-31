@@ -6,6 +6,6 @@ function verificaValor(){
     texto.innerHTML = `<p> O valor ${valor} é um número par</p>`
   }
   else{
-    texto.innerHTML = `<p>O valor ${valor} é um número impar</p>`
+    texto.innerHTML = `<p>O número ${valor} é um número impar</p>`
   }
 }
