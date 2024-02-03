@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navBar{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background-color: #c1c1c1;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.navBar h1{
+  font-size: 30px;
+  padding: 30px;
+}
+
+#container{
+  width: 40%;
+  margin: auto auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: auto;
+  padding: 50px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#container h2{
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+#container button{
+  padding: 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: 0.4s ease;
+  font-size: 18px;
+  background-color: #007bff;
+  cursor: pointer;
+}
+
+#container button:hover{
+  color: black;
+  background-color: #d5d5d5;
+  font-size: 19px;
+  margin-bottom: 50px;
+}
+
+#acerto{
+  display: none;
+}
+
+#saida p{
+  padding: 20px;
+  font-size: 20px;
+}
+
+#btnLimpar{
+  background-color: rgb(216, 26, 26) !important;
+}
+
+#btnLimpar:hover{
+  background-color: #d5d5d5 !important;
+}
