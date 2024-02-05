@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navBar{
+  width: 100%;
+  height: 100px;
+  background-color: #c1c1c1;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.navBar h1{
+  font-size: 30px;
+  padding: 30px;
+}
+
+#container{
+  width: 40%;
+  height: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  padding: 50px;
+  margin: auto auto;
+}
+
+#container h2{
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+#container button{
+  padding: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: 0.4s ease;
+  background-color: #007bff;
+}
+
+#container button:hover{
+  background-color: #0a63c2;
+  font-size: 20px;
+}
+
+#saida p{
+  padding-top: 50px;
+  font-size: 20px;
+  transition: 200ms ease;
+}
+
+#saida p:hover{
+  color: #0a63c2;
+  font-size: 22px;
+}
