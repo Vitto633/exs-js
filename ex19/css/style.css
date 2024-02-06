@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navBar{
+  width: 100%;
+  height: 100px;
+  margin-bottom: 50px;
+  background-color: #c1c1c1;
+  color: white;
+  text-align: center;
+}
+
+.navBar h1{
+  font-size: 30px;
+  padding: 30px;
+}
+
+#container{
+  width: 40%;
+  margin: auto auto;
+  height: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+#container h2{
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+#container input{
+  flex: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+
+#container input:focus{
+  outline: none;
+  border: solid 2px #007bff;
+  border-radius: 5px;
+  color: #007bff;
+}
+
+#container button{
+  text-align: center;
+  width: 280px;
+  height: 50px;
+  margin: auto auto;
+  margin-top: 40px;
+  border: none;
+  background-color:#007bff;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+#container button:hover{
+  background-color: #d5d5d5;
+  color: black;
+  font-size: 19px;
+}
+
+#btnLimpar{
+  background-color: rgb(197, 7, 7) !important;
+  width: 150px !important;
+}
+
+#btnLimpar:hover{
+  background-color: red !important;
+  color: white !important;
+}
+
+.saida{
+  margin-top: 50px !important;
+}
+
+.saida p{
+  padding: 10px;
+}
