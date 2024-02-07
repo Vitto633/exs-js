@@ -52,15 +52,3 @@ body{
   color: black;
   font-size: 20px;
 }
-
-input{
-  width: 100px;
-}
-
-#saida{
-  margin-top: 50px;
-}
-#saida p{
-  font-size: 20px;
-  padding: 10px
-}
