@@ -13,8 +13,8 @@ body{
   height: 100px;
   text-align: center;
   background-color: #c1c1c1;
-  margin-bottom: 50px;
   color: white;
+  margin-bottom: 50px;
 }
 
 .navBar h1{
@@ -24,12 +24,12 @@ body{
 
 #container{
   width: 40%;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   height: auto;
   margin: auto auto;
   padding: 50px;
-  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  text-align: center;
 }
 
 #container h2{
@@ -37,18 +37,42 @@ body{
   margin-bottom: 50px;
 }
 
-#container button{
-  padding: 20px;
-  font-size: 18px;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  transition: 0.4s ease;
-  background-color: #007bff;
+.coisas{
+  display: flex;
 }
 
-#container button:hover{
-  background-color: #d5d5d5;
-  color: black;
+.coisas input{
+  flex:80%;
+  height: 60px;
+  padding: 20px;
+  font-size: 20px;
+  transition: 0.4s ease;
+}
+
+.coisas input:focus{
+  outline: none;
+  border: solid 2px rgb(40, 114, 252);
+}
+.coisas button{
+  flex: 20%;
+  border: none;
+  background-color: rgb(40, 114, 252);
+  color: white;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 18px;
+  transition: 0.4s ease;
+}
+
+.coisas button:hover{
+  background-color: rgb(16, 209, 16);
+  font-size: 20px;
+}
+
+#saida{
+  margin-top: 50px;
+}
+#saida p{
+  padding: 5px;
   font-size: 20px;
 }
