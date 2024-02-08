@@ -64,3 +64,12 @@ input{
   font-size: 20px;
   padding: 10px
 }
+
+#btnLimpar{
+  background-color: rgb(196, 13, 13) !important;
+}
+
+#btnLimpar:hover{
+  background-color: red !important;
+  color: white !important;
+}
